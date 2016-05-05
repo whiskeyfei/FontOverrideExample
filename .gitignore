@@ -4,3 +4,7 @@
 .DS_Store
 /build
 *.iml
+bin/
+gen/
+*.apk
+*.ap_
