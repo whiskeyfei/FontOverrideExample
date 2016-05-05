@@ -22,3 +22,6 @@ The example fonts included are the Chrome OS core fonts (Croscore fonts).
         <style name="AppFontTheme" parent="AppBaseTheme">
             <item name="android:typeface">serif</item>
         </style>
+
+#### 扩展阅读
+[Is it possible to set font for entire Application?](http://stackoverflow.com/questions/2711858/is-it-possible-to-set-font-for-entire-application)
