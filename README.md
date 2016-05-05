@@ -5,6 +5,7 @@ Example of how to override font defaults everywhere in your Android app.
 This changes the behavior everywhere for all views, no changes to layout xml are required.
 
 The example fonts included are the Chrome OS core fonts (Croscore fonts).
+
 ============================
 以下是我新增说明，原demo是覆盖了系统的默认字体，包括（monospace，serif，Sans，default）四种。
 
