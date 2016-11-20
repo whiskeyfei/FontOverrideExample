@@ -8,17 +8,17 @@ The example fonts included are the Chrome OS core fonts (Croscore fonts).
 
 ============================
 以下是我新增说明，原demo是覆盖了系统的默认字体，包括（monospace，serif，Sans，default）四种。
+The original demo is the default system covers the font, including (monospace, serif, Sans, default) four.The following is my new instructions,about to method.
 
-我这里做下延伸，所以总结两种用法：
 
-1、特定文字需要显示不同的字体或者style
-    为每一种字体都设置textStyle或者typeface属性
+## Usage
+
+1、just some text needs to display a different font or style：
+    Set the textStyle or typeface properties for each font
     
-2、更换App全局字体样式
-    定义全局的theme Style，这样不用单独设置字体样式，统一显示一种字体，同样你也可以采用第一种方式处理特殊字体显示
+2、Replace the App global font style：
+    Definition of the application level theme style,if you do this,you can not have to set a separate font style, unified display of a font, you can also use the same way to deal with a special font display
     
-    例如：
-      <!-- 自定义字体主题，当前默认使用serif字体 -->
         <style name="AppFontTheme" parent="AppBaseTheme">
             <item name="android:typeface">serif</item>
         </style>
